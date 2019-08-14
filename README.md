@@ -10,6 +10,9 @@ $ composer require phabloraylan/add-get-param-to-url
 ### Using
 
 ```php
+  
+  use AddGetParamToUrl\URL;
+  
   $url = 'http://localhost';
   
   $params = [
