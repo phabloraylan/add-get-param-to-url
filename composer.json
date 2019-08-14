@@ -1,0 +1,30 @@
+{
+    "name": "phabloraylan/add-get-param-to-url",
+    "description": "Manipulate a url string by adding GET parameters.",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^8.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Phablo Raylan",
+            "email": "phabloraylan@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "AddGetParamToUrl\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AddGetParamToUrl\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit --colors=always "
+    }
+}
